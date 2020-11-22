@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+    <div class="text-center">
+    
+
+        <form method="post" action="/Home/Index">
+            <label for="txtStudentId">Student Id:</label>
+            <input type="number" id="txtStudentId" name="StudentId" />
+
+            <label for="txtStudentName">Student Name:</label>
+            <input type="text" id="txtStudentName" name="StudentName" />
+
+            <label for="txtStudentDivision">Student Division:</label>
+            <input type="text" id="txtStudentDivision" name="StudentDivision" />
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
